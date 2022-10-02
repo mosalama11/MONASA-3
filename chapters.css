@@ -14,12 +14,12 @@
 
 @font-face {
     font-family: LemonMilk;
-    src: url(../GG/fonts/LEMONMILK-Regular.otf);
+    src: url(fonts/LEMONMILK-Regular.otf);
 }
 
 @font-face {
     font-family: OkineSans;
-    src: url(../GG/fonts/OkineSans-Regular.otf);
+    src: url(fonts/OkineSans-Regular.otf);
 }
 
 
@@ -681,7 +681,7 @@ body {
     height: calc(100vh - 74px );
     /* postition relative to center the words in the middle of it */
     position: relative ; 
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../GG/media/ch1.jpg)  ;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(media/ch1.jpg)  ;
     background-size: cover;
     margin-bottom: -16px;
     align-items: center;
