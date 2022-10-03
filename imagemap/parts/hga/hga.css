@@ -1,0 +1,95 @@
+
+
+
+
+
+@font-face {
+    font-family: LemonMilk;
+    src: url(../../../fonts/LEMONMILK-Regular.otf);
+}
+
+@font-face {
+    font-family: OkineSans;
+    src: url(../../../fonts/OkineSans-Regular.otf);
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    position: relative;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 139px;
+
+
+    background: rgb(14,26,236);
+background: linear-gradient(90deg, rgba(14,26,236,0.7231267507002801) 0%, rgba(241,37,37,1) 100%);
+}
+
+.content {
+
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+
+}
+
+.word {
+    align-items: center;
+    display: flex;
+    font-family: 'okineSans';
+    padding: 0 39px;
+}
+
+
+.image {
+    padding-top: 64px;
+}
+
+
+
+
+@media (max-width:730px) {
+    .image {
+        /* display: none; */
+        text-align: center;
+    margin-top: 19px;
+    }
+
+    .content {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+    }
+    .word {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
